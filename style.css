@@ -1,0 +1,115 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Zen Kurenaido", sans-serif;
+    color: white;
+    background-color: darkgreen;
+}
+
+.title {
+    margin-top: 170px;
+    text-align: center;
+}
+
+@keyframes swipe-out-left {
+    from {
+        transform: none;
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes swipe-in-right {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: none;
+    }
+}
+
+h1 {
+    font-style: bold;
+    font-size: 100px;
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+button {
+    padding: 15px 140px;
+    border: solid 5px black;
+    border-radius: 10px;
+    outline: none;
+    font-size: 30px;
+    font-family: "Roboto Slab", serif;
+    font-weight: 700;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+button:hover {
+    scale: 115%;
+}
+
+#game {
+    margin-top: 170px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 50px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+#word-input {
+    width: 800px;
+    height: 60px;
+    font-size: 40px;
+    font-family: "Zen Kurenaido", sans-serif;
+    outline: none;
+    border: solid 5px black;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+.enter-word {
+    display: none;
+}
+
+.letter-input {
+    font-family: "Zen Kurenaido", sans-serif;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    outline: none;
+    border: solid 5px black;
+    font-size: 40px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 90px;
+}
+
+.letter-placeholder {
+    background: none;
+    outline: none;
+    border: none;
+    border-bottom: solid 3px white;
+    font-size: 50px;
+    color: white;
+    font-family: "Zen Kurenaido", sans-serif;
+    width: 50px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+p {
+    font-size: 30px;
+}
